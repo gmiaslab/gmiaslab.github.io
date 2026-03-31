@@ -67,11 +67,16 @@ hr {
   background-image: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.06);
+  opacity: 1 !important;
+  z-index: 1030;
 }
 
 .site-navbar .navbar-collapse,
+.site-navbar .offcanvas,
+.site-navbar .offcanvas-body,
 .site-navbar .dropdown-menu {
-  background-color: #fff;
+  background-color: #fff !important;
+  opacity: 1 !important;
 }
 
 .navbar-brand {
