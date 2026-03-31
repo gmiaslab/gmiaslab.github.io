@@ -63,9 +63,15 @@ hr {
 }
 
 .site-navbar {
-  background: #f8f9fa;
+  background-color: #fff !important;
+  background-image: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.06);
+}
+
+.site-navbar .navbar-collapse,
+.site-navbar .dropdown-menu {
+  background-color: #fff;
 }
 
 .navbar-brand {
