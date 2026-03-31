@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="George I. Mias Lab at Michigan State University: systems biology, multi-omics integration, precision medicine, community resources, and educational materials.">
 <title>G. Mias Lab</title>
 
 	  <!-- Bootstrap -->
@@ -11,17 +12,19 @@
 <!-- Customizations -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap_custom.css">
   </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light ">
-  <div class="container-fluid"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar2"> <span class="sr-only">Toggle navigation</span> <span class="navbar-toggler-icon"></span> </button>
-      <a  target="_top" class="navbar-brand"><span class="icon-bar"><img src="img/GMiasLab_Logo.png" width="55" height="55" alt=""></span><span class="text-center"> G. Mias Lab </span></a> 
-	  </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
+<body class="site-body">
+<nav class="navbar navbar-expand-lg navbar-light site-navbar sticky-top">
+  <div class="container-xl">
+      <a href="#top" class="navbar-brand d-flex align-items-center gap-3">
+        <img src="img/GMiasLab_Logo.png" width="55" height="55" alt="G. Mias Lab logo">
+        <span class="text-center">G. Mias Lab</span>
+      </a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar2" aria-controls="myNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="visually-hidden">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
     <div class="collapse navbar-collapse" id="myNavbar2">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
         <li class="nav-item"><a class="nav-link" href="#members">Members</a></li>
         <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
@@ -42,9 +45,10 @@
   </div>
   <!-- /.container-fluid --> 
 </nav>
-<div class="container" id="research">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-xs">
+<main id="top">
+<div class="container-xl hero-shell" id="research">
+  <div class="row g-4">
+    <div class="col-12">
       <div id="carousel-research" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
  <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel-research" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -58,8 +62,8 @@
           <div class="carousel-item active"> <img class="d-block w-100" src="img/MathIOmica1.png" alt="thumb">
             <div class="carousel-caption d-none d-lg-block"> Data Integration with MathIOmica and PyIOmica. (<a href="https://mathiomica.org"><strong>mathiomica.org</strong></a>)</div>
           </div>
-          <div class="carousel-item"> <img  src="img//Meta3.png" alt="thumb"  class="d-block w-100">
-            <div class="carousel-caption d-none d-lg-block" > Microbiome metabolomics </div>
+          <div class="carousel-item"> <img  src="img//astro.png" alt="thumb"  class="d-block w-100">
+            <div class="carousel-caption d-none d-lg-block" > Space Health And Potential Adverse Effect Detection </div>
           </div>
         </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carousel-research" data-bs-slide="prev">
@@ -78,36 +82,36 @@
 <section>
   <hr>
 </section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="d-flex align-items-right flex-column bd-highlight mb-3">
+<section class="feature-strip">
+  <div class="container-xl">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="d-flex align-items-right flex-column bd-highlight mb-3 feature-card">
             <div class="flex-shrink-0 align-items-center">  <img class="media-object rounded-circle" src="img/PersonalizedMedicine.png" height="100" alt="placeholder image"><br>
             </div>
             <div class="flex-grow-1 ms-3">
-              <h4>Precision Medicine: Personalized Approach</h4>
-              <p >Our personalized medicine investigations extend the concepts of precision medicine to the individual, assessing multiple omics during longitudinal profiling.</p>
+              <h4>Universal Dynamics</h4>
+              <p>From physical systems to omics and health transitions, we develop frameworks to study changing states across biological and physiological scales.</p>
             </div>
         </div>
       </div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="d-flex align-items-right flex-column bd-highlight mb-3">
+<div class="col-lg-4 col-md-6 col-12">
+        <div class="d-flex align-items-right flex-column bd-highlight mb-3 feature-card">
             <div class="flex-shrink-0 align-items-center">  <img class="media-object rounded-circle" src="img/IntegrativeOmics.png" width="100" height="100" alt="placeholder image"><br>
           </div>
             <div class="flex-grow-1 ms-3">
-            <h4>Multi-Omics Integration</h4>
-            <p>Omics analyses and integration requires extensive processing. <a href="https://mathiomica.org"><strong>MathIOmica and PyIOmica</strong></a> provide a user-friendly framework for handling downstream analysis and visualization.</p>
+            <h4>Biological Dynamics and Multi-Omics</h4>
+            <p>We study biological systems through longitudinal multi-omics integration, dynamic trend identification, and systems-level analysis across molecular and physiological measurements.</p>
           </div>
         </div>
       </div>
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="d-flex align-items-right flex-column bd-highlight mb-3">
+<div class="col-lg-4 col-md-6 col-12">
+        <div class="d-flex align-items-right flex-column bd-highlight mb-3 feature-card">
             <div class="flex-shrink-0 align-items-center">  <img class="media-object rounded-circle" src="img/CommunityResources.png" height="100" alt="placeholder image"><br>
           </div>
           <div class="flex-grow-1 ms-3">
-            <h4>Scientific Community Resources</h4>
-            <p>Creating models necessitates robust omics datasets, particularly for time series analyses and network inference. We are creating multiple such sets available to the community.</p>
+            <h4>Computational and Community Resources</h4>
+            <p>We build computational frameworks and community-facing resources, including <a href="https://mathiomica.org"><strong>MathIOmica/PyIOmica/*IOmica</strong></a>, omics datasets, and tools for dynamic analysis, systems interpretation, and network inference.</p>
           </div>
         </div>
       </div>
@@ -116,12 +120,12 @@
 </section>
 <hr>
 <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6" id="members">
+  <div class="container-xl">
+    <div class="row g-4">
+      <div class="col-md-6" id="members">
         <h3 >Members</h3>
         <hr>
-        <ul id="myTab1" class="nav nav-tabs">
+        <ul id="myTab1" class="nav nav-tabs section-tabs" role="tablist">
           <li class="nav-item" role="presentation"> <button class="nav-link active" id="PItab" data-bs-toggle="tab" data-bs-target="#home1" aria-controls="home1" role="tab" type="button"> PI: George I. Mias </button> </li>
           <li class="nav-item" role="presentation"><button class="nav-link" id="tab2" href="#pane2" data-bs-toggle="tab" data-bs-target="#pane2" aria-controls="pane2" role="tab" type="button">Postdocs</button></li>
           <li class="nav-item" role="presentation"> <button class="nav-link" id="tab3" href="#pane3" data-bs-toggle="tab" data-bs-target="#pane3" aria-controls="pane3" role="tab" type="button">Graduate Students</button> </li>
@@ -130,9 +134,9 @@
         </ul>
         <div id="myTabContent1" class="tab-content">
           <div class="tab-pane fade show active" id="home1" role="tabpanel" aria-labelledby="PI-tab">
-            <p class="text-center"><img src="img/GeorgeMias.jpg" alt=""></p>
-            <p class="text-center"> <a href="https://www.linkedin.com/in/georgemias/" target="_blank"> <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_bluetxt_80x15.png" width="80" height="15" border="0" alt="View George Mias's profile on LinkedIn"> </a>
-				<a href="https://twitter.com/georgemias?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @georgemias</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p class="text-center"><img src="img/GeorgeMias.jpg" class="img-fluid rounded-4 profile-image" alt="Portrait of George I. Mias"></p>
+            <p class="text-center profile-links"> <a href="https://www.linkedin.com/in/georgemias/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+				<a href="https://twitter.com/georgemias?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @georgemias</a></p>
             <div class="accordion" id="accordionPI">
               <div class="accordion-item">
                 <div class="accordion-heading">
@@ -146,7 +150,7 @@
                     <h5> East Lansing, MI 48824</h5>
                     <ul>
                       <li> Division Chief,&nbsp; &nbsp;Systems Biology, Institute for Quantitative Health Science and Engineering (IQ Center)</li>
-                      <li> Associate Professor of Biochemistry and Molecular Biology </li>
+                      <li> Associate Professor with Tenure of Biochemistry and Molecular Biology </li>
                       <li> Adjunct Professor of Physics and Astronomy </li>
                       <li> Adjunct Professor of Pediatrics and Human Development </li>
                     </ul>
@@ -159,7 +163,7 @@
                     </ul>
                     <h5>Stanford University, Palo Alto, CA 94301</h5>
                     <ul>
-                      <li>Postdoctoral Scholar in Genetics 2009-2014</li>
+                      <li>Postdoctoral Research Fellow in Genetics 2009-2014</li>
                     </ul>
                 
                   </div>
@@ -170,14 +174,12 @@
 					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="biosketch" data-bs-target="#biosketch">Biography</button> </h4>
                 <div id="biosketch" class="accordion-collapse collapse" aria-labelledby="accordionPI-header2">
                   <div class="accordion-body">
-				<p >
-                    Professor Mias joined MSU in 2014, conducting research in Personalized Medicine and Individualized Wellness. He is currently Division Chief of the Systems Biology Division, at the Institute for Quantitative Health Science and Engineering (IQ Center), and an Associate Professor of Biochemistry and Molecular Biology, an Adjunct Professor of Physics and Astronomy and of Pediatrics and Human Development.  </p>
-                 			<p>       The current research of the G.Mias lab focuses on the analysis and integration of existing (and developing) -omics technologies, their application to monitoring individuals as they transition through various physiological states, and their implementation towards personalized health. Professor Mias’ received funding through an NIH Pathway To Independence Award (K99\&amp;R00) from the National Human Genome Research Institute.  He is interested in systems medicine and particularly focusing on future implementation of personalized/precision medicine and genetics.
-					 </p>
-				<p>      Prior to joining MSU, Professor Mias studied at Yale University, completing a combined BS/MS (magna cum laude with Distinction in Physics, 2001), MPhil (2003) and PhD in theoretical Physics (2007), while concentrating on statistical physics, quantum dynamics and critical phenomena. Following graduate school, he was a Lecturer/Assistant in Instruction at Yale University before joining the Laboratory of Dr. Michael Snyder as a Postdoctoral Scholar with the Department of Genetics at Stanford University.
-					  </p>
+					<p>
+                    Professor Mias joined Michigan State University in 2014 and is currently Division Chief of Systems Biology at the Institute for Quantitative Health Science and Engineering (IQ Center), Associate Professor with Tenure in the Department of Biochemistry and Molecular Biology, and Adjunct Professor in Physics and Astronomy and Pediatrics and Human Development.</p>
+                 			<p>The G. Mias Lab focuses on dynamics, systems biology, and systems medicine. The lab develops theoretical and computational frameworks for dynamic systems across physical, biological, and physiological applications, with a major emphasis on the longitudinal analysis and integration of omics and physiological data to identify temporal patterns that reflect changing health states.</p>
+				<p>Current work applies these approaches to development, aging, immune responses, cancer, neurodegenerative disorders, and adaptation to changing conditions such as space travel. The lab also investigates non-invasive saliva diagnostics as a platform for individualized longitudinal monitoring.</p>
 					  
-                    <p> <a class="btn btn-primary d-block mx-auto" href="img/GeorgeMias_CVi.pdf" target="_blank">Download CV</a></p>
+	                    <p> <a class="btn btn-primary d-block mx-auto" href="img/GeorgeMias_CVi.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></p>
                   </div>
                 </div>
               </div>
@@ -186,66 +188,60 @@
 					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" aria-controls="publications" aria-expanded="false" data-bs-target="#publications">Publications </button> </h4>
                 <div id="publications" class="accordion-collapse collapse" aria-labelledby="accordionPI-header3">
                   <div class="accordion-body">
-                    <ol style="list-style-type:disc; padding-right:15px; padding-top:15px; padding-bottom:15px; " >
-					  <h4> Online Profiles </h4>
-						<ol style="list-style-type:circle; " >
-							<li><a href="https://orcid.org/0000-0002-9083-1216" target="_blank"> <strong> ORCiD ID</strong></a></li>
-							<li><a href="https://scholar.google.com/citations?hl=en&authuser=2&user=bhexC3YAAAAJ" target="_blank"> <strong>Google Scholar</strong></a></li>
-							<li><a href="https://www.ncbi.nlm.nih.gov/myncbi/george.mias.1/bibliography/public/" target="_blank"> <strong> NCBI Bibliography</strong></a></li>
-						</ol>
-                      <br>
-                    </ol>
+                    <h4>Online Profiles</h4>
+                    <ul>
+								<li><a href="https://orcid.org/0000-0002-9083-1216" target="_blank" rel="noopener noreferrer"><strong>ORCiD ID</strong></a></li>
+								<li><a href="https://scholar.google.com/citations?hl=en&amp;authuser=2&amp;user=bhexC3YAAAAJ" target="_blank" rel="noopener noreferrer"><strong>Google Scholar</strong></a></li>
+								<li><a href="https://www.ncbi.nlm.nih.gov/myncbi/george.mias.1/bibliography/public/" target="_blank" rel="noopener noreferrer"><strong>NCBI Bibliography</strong></a></li>
+						</ul>
                   </div>
                 </div>
               </div>
             </div>
             <button type="button" class="btn btn-primary d-block mx-auto" data-bs-toggle="collapse" data-bs-target="#twitterFeed">Dr. Mias' Twitter  Feed</button>
             <!-- Collapsible Element HTML -->
-            <div id="twitterFeed" class="collapse" align="center"><a class="twitter-timeline" href="https://twitter.com/georgemias?ref_src=twsrc%5Etfw">Tweets by georgemias</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+            <div id="twitterFeed" class="collapse text-center"><a class="twitter-timeline" href="https://twitter.com/georgemias?ref_src=twsrc%5Etfw">Tweets by georgemias</a></div>
           </div>
           <div class="tab-pane fade" id="pane2" role="tabpanel" aria-labelledby="tab2">
-            <div class="row">
-<div class="col-lg-4 col-md-6 col-sm-6">
-  <div class="card">
-    <img src="img/testnetwork_med.png" alt="Thumbnail Image 1" class="card-img-top img-fluid">
-    <div class="card-body">
-      <h4 class="card-title"><a data-bs-toggle="collapse" href="#collapsePD1" style="font-size:small" class="text-decoration-none">Minzhang Zheng</a></h4>
-      <div id="collapsePD1" class="collapse">
-        <div class="card-text">
-          <p>Minzhang Zheng received Ph.D. in Physics from the University of Miami in 2020. He is currently working on characterizing biological longitudinal data using network and spectral methods, with applications to personalized personnel monitoring.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-						<div class="col-lg-4 col-md-6 col-sm-6">
-  <div class="card">
-    <img src="img/testnetwork_med.png" alt="Thumbnail Image 1" class="card-img-top img-fluid" >
-    <div class="card-body">
-      <h4 class="card-title"><a data-bs-toggle="collapse" href="#collapseCLuo" style="font-size:small" class="text-decoration-none">Chenxiang Luo</a></h4>
-      <div id="collapseCLuo" class="collapse">
-        <div class="card-text">
-          <p>Chenxiang Luo received an M.D. She is currently working on our collboration with Dr. Bin Gu on characterizing NUT Carcinoma.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
+            <div class="row g-4">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card">
+                  <img src="img/testnetwork_med.png" alt="Placeholder portrait for Chenxiang Luo" class="card-img-top img-fluid">
+                  <div class="card-body">
+                    <h4 class="card-title"><a data-bs-toggle="collapse" href="#collapseCLuo" class="member-card-link text-decoration-none">Chenxiang Luo</a></h4>
+                    <div id="collapseCLuo" class="collapse">
+                      <div class="card-text">
+                        <p>Chenxiang Luo has been a postdoctoral scholar with the Institute for Quantitative Health Science and Engineering since 2023. She is working on the lab's collaboration with Dr. Bin Gu on characterizing NUT carcinoma.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
-
           </div>
 <div class="tab-pane fade" id="pane3">
-  <div class="row">
-    
+  <div class="row g-4">
     <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="card">
-    <img src="img/testnetwork_med.png" alt="Thumbnail Image 1" class="card-img-top img-fluid">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Erin Vegter" class="card-img-top img-fluid">
         <div class="card-body">
-          <h4 class="card-title"><a data-bs-toggle="collapse" href="#collapseShuyue" style="font-size:small" class="text-decoration-none">Shuyue Xue</a></h4>
+          <h4 class="card-title"><a data-bs-toggle="collapse" href="#collapseErinVegter" class="member-card-link text-decoration-none">Erin Vegter</a></h4>
+          <div id="collapseErinVegter" class="collapse">
+            <div class="card-text">
+              <p>Erin Vegter joined the lab in 2024 and is a graduate student in the Comparative Medicine and Integrative Biology Ph.D. Program, with George I. Mias serving as computational advisor in collaboration with Professor Bin Gu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Shuyue Xue" class="card-img-top img-fluid">
+        <div class="card-body">
+          <h4 class="card-title"><a data-bs-toggle="collapse" href="#collapseShuyue" class="member-card-link text-decoration-none">Shuyue Xue</a></h4>
           <div id="collapseShuyue" class="collapse">
             <div class="card-text">
-              <p>Shuyue Xue is a Physics student. She joined the lab in 2019, and is co-advised by Dr. Mias and Dr. Carlo Piermarocchi.</p>
+              <p>Shuyue Xue is a student in the Physics and Astronomy PhD Program. She joined the lab in 2019 and is co-advised by Dr. Mias and Dr. Carlo Piermarocchi.</p>
             </div>
           </div>
         </div>
@@ -254,15 +250,15 @@
   </div>
 </div>
 <div class="tab-pane fade" id="pane4">
-  <div class="row">
+  <div class="row g-4">
 		<div class="col-lg-4 col-md-6 col-sm-6">
       <div class="card">
-        <img src="img/testnetwork_med.png" alt="Thumbnail Image 1" class="card-img-top" style="max-height:220px; min-height:220px">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Shivani Ramakrishnan" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseNCurrie" style="font-size:small">Natalie Currie</a></h5>
-          <div id="collapseNCurrie" class="collapse">
+          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseShivaniR" class="member-card-link">Shivani Ramakrishnan</a></h5>
+          <div id="collapseShivaniR" class="collapse">
             <div class="card-text">
-              <p>Natalie Currie is a Professorial Assistant. She joined the lab in 2020.</p>
+              <p>Shivani Ramakrishnan joined the lab in 2026 as an undergraduate researcher.</p>
             </div>
           </div>
         </div>
@@ -270,12 +266,64 @@
     </div>
 <div class="col-lg-4 col-md-6 col-sm-6">
       <div class="card">
-        <img src="img/testnetwork_med.png" alt="Thumbnail Image 1" class="card-img-top" style="max-height:220px; min-height:220px">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Shraddha Doddaguni Harish" class="card-img-top">
         <div class="card-body">
-          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseFDawson" style="font-size:small">Faith Dawson</a></h5>
-          <div id="collapseFDawson" class="collapse">
+          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseShraddhaDH" class="member-card-link">Shraddha Doddaguni Harish</a></h5>
+          <div id="collapseShraddhaDH" class="collapse">
             <div class="card-text">
-              <p>Faith Dawson is a Professorial Assistant. She joined the lab in 2021.</p>
+              <p>Shraddha Doddaguni Harish joined the lab in 2025 as an undergraduate researcher.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Owen Sylvester" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseOwenSylvester" class="member-card-link">Owen Sylvester</a></h5>
+          <div id="collapseOwenSylvester" class="collapse">
+            <div class="card-text">
+              <p>Owen Sylvester joined the lab in 2025 as an Honors College Research Scholar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Rohan Bansal" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseRohanBansal" class="member-card-link">Rohan Bansal</a></h5>
+          <div id="collapseRohanBansal" class="collapse">
+            <div class="card-text">
+              <p>Rohan Bansal joined the lab in 2025 as a Professorial Assistant.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Sneha Nandimandalam" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseSnehaN" class="member-card-link">Sneha Nandimandalam</a></h5>
+          <div id="collapseSnehaN" class="collapse">
+            <div class="card-text">
+              <p>Sneha Nandimandalam joined the lab in 2025 as an undergraduate researcher.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card">
+        <img src="img/testnetwork_med.png" alt="Placeholder portrait for Sunidhi Shastri" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a data-bs-toggle="collapse" href="#collapseSunidhiShastri" class="member-card-link">Sunidhi Shastri</a></h5>
+          <div id="collapseSunidhiShastri" class="collapse">
+            <div class="card-text">
+              <p>Sunidhi Shastri has been with the lab since 2022 as an undergraduate researcher.</p>
             </div>
           </div>
         </div>
@@ -284,446 +332,399 @@
             </div>
           </div>
           <div class="tab-pane fade" id="pane5">
-            <div class="row">
-
-<!--			Jenn Abel-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-    <div class="accordion" id="accordionUGJennAbel">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="headingUGJennAbel">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUGJennAbel" aria-expanded="false" aria-controls="collapseUGJennAbel">
-            Jennifer Abel
-          </button>
-        </h5>
-        <div id="collapseUGJennAbel" class="accordion-collapse collapse" aria-labelledby="headingUGJennAbel" data-bs-parent="#accordionUGJennAbel">
-          <div class="accordion-body">
-            <p>Jenn Abel is an undergraduate Professorial Assistant in the Honors College.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
-				<!--Keerthana Byreddy-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseKeerthAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseKeerthHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKeerth" aria-expanded="false" aria-controls="collapseKeerth">
-            Keerthana Byreddy
-          </button>
-        </h5>
-        <div id="collapseKeerth" class="accordion-collapse collapse" aria-labelledby="collapseKeerthHeader" data-bs-parent="#collapseKeerthAccordion">
-          <div class="accordion-body">
-            <p>Keerthana Byreddy worked as a professorial assistant in the lab (2015-2017).</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--Michael Bennett-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-  <div class="thumbnail"> 
-    <div class="accordion" id="accordionMBennett">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="headingMBennett">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMBennett" aria-expanded="false" aria-controls="collapseMBennett">
-            Michael Bennett
-          </button>
-        </h5>
-        <div id="collapseMBennett" class="accordion-collapse collapse" aria-labelledby="headingMBennett" data-bs-parent="#accordionMBennett">
-          <div class="accordion-body">
-            <p>Michael Bennett is a Professorial Assistant. He joined the lab in 2018, and is interested in biochemistry and medical research implementations.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--Calista Busch-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseCBuschAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseCBuschHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCBusch" aria-expanded="false" aria-controls="collapseCBusch">
-            Calista Busch
-          </button>
-        </h5>
-        <div id="collapseCBusch" class="accordion-collapse collapse" aria-labelledby="collapseCBuschHeader" data-bs-parent="#collapseCBuschAccordion">
-          <div class="accordion-body">
-            <p>Calista Busch was a Professorial Assistant in the lab in 2019.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Priyanka Bhoopathi-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapsePBhoopathiAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapsePBhoopathiHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePBhoopathi" aria-expanded="false" aria-controls="collapsePBhoopathi">
-            Priyanka Bhoopathi
-          </button>
-        </h5>
-        <div id="collapsePBhoopathi" class="accordion-collapse collapse" aria-labelledby="collapsePBhoopathiHeader" data-bs-parent="#collapsePBhoopathiAccordion">
-          <div class="accordion-body">
-            <p>Priyanka Bhoopathi joined the lab as Professorial Assistant in 2018.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Curtis Bunger-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseCBungerAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseCBungerHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCBunger" aria-expanded="false" aria-controls="collapseCBunger">
-            Curtis Bunger
-          </button>
-        </h5>
-        <div id="collapseCBunger" class="accordion-collapse collapse" aria-labelledby="collapseCBungerHeader" data-bs-parent="#collapseCBungerAccordion">
-          <div class="accordion-body">
-            <p>Curtis Bunger worked as a professorial assistant and research assistant in the lab (2014-2018). He was the recipient of a Larry D. Fowler Undergraduate Research Scholarship (2016) and a College of Natural Science Undergraduate Research Support Scholarship for Summer 2017.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				
-<!--  Liz Deyoung-->
-	    <div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingAL3">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAL3" aria-expanded="false" aria-controls="collapseAL3">
-        Liz DeYoung
-      </button>
-    </h2>
-    <div id="collapseAL3" class="accordion-collapse collapse" aria-labelledby="headingAL3" data-bs-parent="#accordionAL">
-      <div class="accordion-body">
-        <p>Liz DeYoung continues her studies in medical school at MSU.</p>
-      </div>
-    </div>
-  </div>
-         </div>
-          </div>
-<!--Ashley Garvin-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseAGarvingAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseAGarvingHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAGarving" aria-expanded="false" aria-controls="collapseAGarving">
-            Ashley Garvin
-          </button>
-        </h5>
-        <div id="collapseAGarving" class="accordion-collapse collapse" aria-labelledby="collapseAGarvingHeader" data-bs-parent="#collapseAGarvingAccordion">
-          <div class="accordion-body">
-            <p>Ashley Garvin worked as a research assistant in the lab (2016-2018), while studying Genomics and Molecular Genetics through Lyman Briggs College. She was the recipient of a daadRISE scholarship and a Dr. Frank Peabody Microbiology Student Research Fund Award (MMG, 2017).</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--  Brian Gutermuth-->
-	    <div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingAL2">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAL2" aria-expanded="false" aria-controls="collapseAL2">
-        Brian Gutermuth
-      </button>
-    </h2>
-    <div id="collapseAL2" class="accordion-collapse collapse" aria-labelledby="headingAL2" data-bs-parent="#accordionAL">
-      <div class="accordion-body">
-        <p>Brian Gutermuth majored in Biochemistry at MSU.</p>
-      </div>
-    </div>
-  </div>
-         </div>
-          </div>
-	
-<!--Kailin Hairston-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseKailinnHAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseKailinnHHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKailinnH" aria-expanded="false" aria-controls="collapseKailinnH">
-            Kailinn Hairston
-          </button>
-        </h5>
-        <div id="collapseKailinnH" class="accordion-collapse collapse" aria-labelledby="collapseKailinnHHeader" data-bs-parent="#collapseKailinnHAccordion">
-          <div class="accordion-body">
-            <p>Kailinn Hairston worked as an undergraduate research assistant (2017-18) at Michigan State University, starting in the lab doing research through SROP (Summer Research Opportunities Program).</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--Jayna Lenders-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseUGJaynaAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseUGJaynaHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUGJayna" aria-expanded="false" aria-controls="collapseUGJayna">
-            Jayna Lenders
-          </button>
-        </h5>
-        <div id="collapseUGJayna" class="accordion-collapse collapse" aria-labelledby="collapseUGJaynaHeader" data-bs-parent="#collapseUGJaynaAccordion">
-          <div class="accordion-body">
-            <p>Jayna Lenders is an undergraduate Professorial Assistant in the Honors College.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--	Kenneth Matthews			-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseKJMatthewsAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseKJMatthewsHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKJMatthews" aria-expanded="false" aria-controls="collapseKJMatthews">
-            Kenneth Matthews
-          </button>
-        </h5>
-        <div id="collapseKJMatthews" class="accordion-collapse collapse" aria-labelledby="collapseKJMatthewsHeader" data-bs-parent="#collapseKJMatthewsAccordion">
-          <div class="accordion-body">
-            <p>Kenneth Jerome Matthews worked in the lab in the summer of 2018 as a SROP (Summer Research Opportunities Program) student.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--cameron lochrie-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="accordionCameronLochrie">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="headingCameronLochrie">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCameronLochrie" aria-expanded="false" aria-controls="collapseCameronLochrie">
-            Cameron Lochrie
-          </button>
-        </h5>
-        <div id="collapseCameronLochrie" class="accordion-collapse collapse" aria-labelledby="headingCameronLochrie" data-bs-parent="#accordionCameronLochrie">
-          <div class="accordion-body">
-            <p>Cameron Lochrie is an undergraduate Professorial Assistant and joined the lab in 2019.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--Megha Pratapwar-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseMPratapwarAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseMPratapwarHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMPratapwar" aria-expanded="false" aria-controls="collapseMPratapwar">
-            Megha Pratapwar
-          </button>
-        </h5>
-        <div id="collapseMPratapwar" class="accordion-collapse collapse" aria-labelledby="collapseMPratapwarHeader" data-bs-parent="#collapseMPratapwarAccordion">
-          <div class="accordion-body">
-            <p>Megha Pratapwar a Professorial Assistant. She joined the lab in 2020.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!--	  Hannah Rice-->
-	    <div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingAL4">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAL4" aria-expanded="false" aria-controls="collapseAL4">
-        Hannah Rice
-      </button>
-    </h2>
-    <div id="collapseAL4" class="accordion-collapse collapse" aria-labelledby="headingAL4" data-bs-parent="#accordionAL">
-      <div class="accordion-body">
-        <p>Hannah Rice is an undergraduate in the Honors College studying Fisheries and Wildlife with a concentration in Disease Ecology. She is interested in epidemiology and species conservation.</p>
-      </div>
-    </div>
-  </div>
-       </div>
-          </div>
-<!--				Lavida Rogers-->				
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseLRKRAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseLRKRHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLRKR" aria-expanded="false" aria-controls="collapseLRKR">
-            Lavida R.K. Rogers
-          </button>
-        </h5>
-        <div id="collapseLRKR" class="accordion-collapse collapse" aria-labelledby="collapseLRKRHeader" data-bs-parent="#collapseLRKRAccordion">
-          <div class="accordion-body">
-            <p>Lavida Rogers received a B.Sc. in Biology from the University of the Virgin Islands in May 2014. She enrolled in the Michigan State University Microbiology &amp; Molecular Genetics PhD Program in the fall of 2014. Lavida is currently working on statistical methodology to process DNA and RNA sequencing data, including assessment for quality control and improvement of mapping algorithms. Lavida is supported by MSU AAGA and CNS fellowships. She is also the recipient of the Marvis Richardson Award (MMG, 2017). Lavida is currently an Assistant Professor of Biology at the University of the Virgin Islands.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				<!-- Raeuf Roushangar-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseRaeufRAccordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseRaeufRHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRaeufR" aria-expanded="false" aria-controls="collapseRaeufR">
-            Raeuf Roushangar
-          </button>
-        </h5>
-        <div id="collapseRaeufR" class="accordion-collapse collapse" aria-labelledby="collapseRaeufRHeader" data-bs-parent="#collapseRaeufRAccordion">
-          <div class="accordion-body">
-            <p>Raeuf Roushangar joined the lab in 2014, and in 2018 completed his dual PhD in Biochemistry, and Bioinformatics and Computational Biology, with a dissertation on "Modeling Age-Dependent Gene Expression Variability in Acute Myeloid Leukemia Using a Linear Model". Raeuf was a <a href=" https://www.pdsoros.org/meet-the-fellows/raeuf-roushangar"> Paul and Daisy Soros Fellowship</a> recipient (2015).</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				
-				<!--connor shury-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="ugConSchAccordion">
-      <div class="accordion-item">
-        <h4 class="accordion-header" id="ugConSchHeader">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUGConSch" aria-expanded="false" aria-controls="collapseUGConSch">
-            Connor Schury
-          </button>
-        </h4>
-        <div id="collapseUGConSch" class="accordion-collapse collapse" aria-labelledby="ugConSchHeader" data-bs-parent="#ugConSchAccordion">
-          <div class="accordion-body">
-            <p>Connor Schury is an undergraduate Professorial Assistant.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Alisha Unkuldee-->
-<div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-    <div class="accordion" id="collapseUG3Accordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseUG3Header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUG3" aria-expanded="false" aria-controls="collapseUG3">
-            Alisha Ungkuldee
-          </button>
-        </h5>
-        <div id="collapseUG3" class="accordion-collapse collapse" aria-labelledby="collapseUG3Header" data-bs-parent="#collapseUG3Accordion">
-          <div class="accordion-body">
-            <p>Alisha Ungkuldee is an undergraduate Professorial Assistant in the Honors College and Lyman Briggs Class of 2020. She hopes to continue her studies in medical school in the future.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--			Maddie Verlinde	-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-  <div class="thumbnail"> 
-    <div class="accordion" id="accordionUGMaddieV">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="headingUGMaddieV">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUGMaddieV" aria-expanded="false" aria-controls="collapseUGMaddieV">
-            Maddie Verlinde
-          </button>
-        </h5>
-        <div id="collapseUGMaddieV" class="accordion-collapse collapse" aria-labelledby="headingUGMaddieV" data-bs-parent="#accordionUGMaddieV">
-          <div class="accordion-body">
-            <p>Maddie Verlinde is an undergraduate Professorial Assistant in the Honors College.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--				Eren Veziroglu-->
-<div class="col-lg-4 col-md-4 col-sm-6 ">
-  <div class="thumbnail"> 
-    <div class="accordion" id="accordionEVeziroglu">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="headingEVeziroglu">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEVeziroglu" aria-expanded="false" aria-controls="collapseEVeziroglu">
-            Eren Veziroglu
-          </button>
-        </h5>
-        <div id="collapseEVeziroglu" class="accordion-collapse collapse" aria-labelledby="headingEVeziroglu" data-bs-parent="#accordionEVeziroglu">
-          <div class="accordion-body">
-            <p>Eren Veziroglu completed his Masters in Biomedical Engineering at MSU and is training to be a physician scientist.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Cathy Wiesner-->
- <div class="col-lg-4 col-md-4 col-sm-6">
-  <div class="thumbnail">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingAL1">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAL1" aria-expanded="false" aria-controls="collapseAL1">
-        Cathy Wiesner
-      </button>
-    </h2>
-    <div id="collapseAL1" class="accordion-collapse collapse" aria-labelledby="headingAL1" data-bs-parent="#accordionAL">
-      <div class="accordion-body">
-        <p>Cathy Wiesner worked as a Lab Manager in the lab (2014-2015)</p>
-      </div>
-    </div>
-  </div>
-         </div>
-          </div>
-				<!--Tahir Yusufaly-->
-  <div class="col-lg-4 col-md-4 col-sm-6">
-    <div class="accordion" id="collapseAL5Accordion">
-      <div class="accordion-item">
-        <h5 class="accordion-header" id="collapseAL5Header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAL5" aria-expanded="false" aria-controls="collapseAL5">
-            Tahir Yusufaly
-          </button>
-        </h5>
-        <div id="collapseAL5" class="accordion-collapse collapse" aria-labelledby="collapseAL5Header" data-bs-parent="#collapseAL5Accordion">
-          <div class="accordion-body">
-            <p>Tahir Yusufaly is a postoctoral fellow at the University of Southern California, Department of Physics and Astronomy.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-	  </div>
-
+            <div class="row g-3">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALBrooklynCollins">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALBrooklynCollins">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALBrooklynCollins" aria-expanded="false" aria-controls="collapseALBrooklynCollins">Brooklyn Collins</button>
+                    </h5>
+                    <div id="collapseALBrooklynCollins" class="accordion-collapse collapse" aria-labelledby="headingALBrooklynCollins" data-bs-parent="#accordionALBrooklynCollins">
+                      <div class="accordion-body"><p>Brooklyn Collins worked in the lab as a research assistant from 2023 to 2025.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALNatalieCurrie">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALNatalieCurrie">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALNatalieCurrie" aria-expanded="false" aria-controls="collapseALNatalieCurrie">Natalie Currie</button>
+                    </h5>
+                    <div id="collapseALNatalieCurrie" class="accordion-collapse collapse" aria-labelledby="headingALNatalieCurrie" data-bs-parent="#accordionALNatalieCurrie">
+                      <div class="accordion-body"><p>Natalie Currie was a Professorial Assistant and student research assistant in the lab from 2020 to 2024.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALFaithDawson">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALFaithDawson">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALFaithDawson" aria-expanded="false" aria-controls="collapseALFaithDawson">Faith Dawson</button>
+                    </h5>
+                    <div id="collapseALFaithDawson" class="accordion-collapse collapse" aria-labelledby="headingALFaithDawson" data-bs-parent="#accordionALFaithDawson">
+                      <div class="accordion-body"><p>Faith Dawson was a Professorial Assistant in the lab from 2021 to 2023.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALRakshaS">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALRakshaS">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALRakshaS" aria-expanded="false" aria-controls="collapseALRakshaS">Raksha Sridharan</button>
+                    </h5>
+                    <div id="collapseALRakshaS" class="accordion-collapse collapse" aria-labelledby="headingALRakshaS" data-bs-parent="#accordionALRakshaS">
+                      <div class="accordion-body"><p>Raksha Sridharan was a Professorial Assistant in the lab from 2021 to 2022.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALNaomiDouglas">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALNaomiDouglas">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALNaomiDouglas" aria-expanded="false" aria-controls="collapseALNaomiDouglas">Naomi Douglas</button>
+                    </h5>
+                    <div id="collapseALNaomiDouglas" class="accordion-collapse collapse" aria-labelledby="headingALNaomiDouglas" data-bs-parent="#accordionALNaomiDouglas">
+                      <div class="accordion-body"><p>Naomi Douglas participated in the lab in 2021 through the Summer Student Research Opportunities Program (SROP).</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALMeghaPratapwar">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALMeghaPratapwar">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALMeghaPratapwar" aria-expanded="false" aria-controls="collapseALMeghaPratapwar">Megha Pratapwar</button>
+                    </h5>
+                    <div id="collapseALMeghaPratapwar" class="accordion-collapse collapse" aria-labelledby="headingALMeghaPratapwar" data-bs-parent="#accordionALMeghaPratapwar">
+                      <div class="accordion-body"><p>Megha Pratapwar was a Professorial Assistant in the lab from 2020 to 2021.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALCameronLochrie">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALCameronLochrie">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALCameronLochrie" aria-expanded="false" aria-controls="collapseALCameronLochrie">Cameron Lochrie</button>
+                    </h5>
+                    <div id="collapseALCameronLochrie" class="accordion-collapse collapse" aria-labelledby="headingALCameronLochrie" data-bs-parent="#accordionALCameronLochrie">
+                      <div class="accordion-body"><p>Cameron Lochrie was a Professorial Assistant in the lab from 2019 to 2021.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALCalistaBusch">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALCalistaBusch">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALCalistaBusch" aria-expanded="false" aria-controls="collapseALCalistaBusch">Calista Busch</button>
+                    </h5>
+                    <div id="collapseALCalistaBusch" class="accordion-collapse collapse" aria-labelledby="headingALCalistaBusch" data-bs-parent="#accordionALCalistaBusch">
+                      <div class="accordion-body"><p>Calista Busch was a Professorial Assistant in the lab in 2019 through Lyman Briggs College.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALMichaelBennett">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALMichaelBennett">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALMichaelBennett" aria-expanded="false" aria-controls="collapseALMichaelBennett">Michael Bennett</button>
+                    </h5>
+                    <div id="collapseALMichaelBennett" class="accordion-collapse collapse" aria-labelledby="headingALMichaelBennett" data-bs-parent="#accordionALMichaelBennett">
+                      <div class="accordion-body"><p>Michael Bennett was a Professorial Assistant in the lab from 2018 to 2020.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALPriyankaBhoopathi">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALPriyankaBhoopathi">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALPriyankaBhoopathi" aria-expanded="false" aria-controls="collapseALPriyankaBhoopathi">Priyanka Bhoopathi</button>
+                    </h5>
+                    <div id="collapseALPriyankaBhoopathi" class="accordion-collapse collapse" aria-labelledby="headingALPriyankaBhoopathi" data-bs-parent="#accordionALPriyankaBhoopathi">
+                      <div class="accordion-body"><p>Priyanka Bhoopathi was a Professorial Assistant in the lab from 2018 to 2019.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALKennethMatthews">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALKennethMatthews">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALKennethMatthews" aria-expanded="false" aria-controls="collapseALKennethMatthews">Kenneth Matthews</button>
+                    </h5>
+                    <div id="collapseALKennethMatthews" class="accordion-collapse collapse" aria-labelledby="headingALKennethMatthews" data-bs-parent="#accordionALKennethMatthews">
+                      <div class="accordion-body"><p>Kenneth Matthews worked in the lab in 2018 through the Summer Research Opportunities Program (SROP).</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALJenniferAbel">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALJenniferAbel">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALJenniferAbel" aria-expanded="false" aria-controls="collapseALJenniferAbel">Jennifer Abel</button>
+                    </h5>
+                    <div id="collapseALJenniferAbel" class="accordion-collapse collapse" aria-labelledby="headingALJenniferAbel" data-bs-parent="#accordionALJenniferAbel">
+                      <div class="accordion-body"><p>Jennifer Abel was a Professorial Assistant in the lab from 2017 to 2020 through Lyman Briggs College.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALMadisonVerlinde">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALMadisonVerlinde">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALMadisonVerlinde" aria-expanded="false" aria-controls="collapseALMadisonVerlinde">Madison Verlinde</button>
+                    </h5>
+                    <div id="collapseALMadisonVerlinde" class="accordion-collapse collapse" aria-labelledby="headingALMadisonVerlinde" data-bs-parent="#accordionALMadisonVerlinde">
+                      <div class="accordion-body"><p>Madison Verlinde was a Professorial Assistant in the lab from 2017 to 2020 through Lyman Briggs College.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALJaynaLenders">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALJaynaLenders">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALJaynaLenders" aria-expanded="false" aria-controls="collapseALJaynaLenders">Jayna Lenders</button>
+                    </h5>
+                    <div id="collapseALJaynaLenders" class="accordion-collapse collapse" aria-labelledby="headingALJaynaLenders" data-bs-parent="#accordionALJaynaLenders">
+                      <div class="accordion-body"><p>Jayna Lenders was a Professorial Assistant in the lab from 2017 to 2020.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALAlishaUngkuldee">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALAlishaUngkuldee">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALAlishaUngkuldee" aria-expanded="false" aria-controls="collapseALAlishaUngkuldee">Alisha Ungkuldee</button>
+                    </h5>
+                    <div id="collapseALAlishaUngkuldee" class="accordion-collapse collapse" aria-labelledby="headingALAlishaUngkuldee" data-bs-parent="#accordionALAlishaUngkuldee">
+                      <div class="accordion-body"><p>Alisha Ungkuldee was a Professorial Assistant in the lab from 2016 to 2019 through Lyman Briggs College.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALConnorSchury">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALConnorSchury">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALConnorSchury" aria-expanded="false" aria-controls="collapseALConnorSchury">Connor Schury</button>
+                    </h5>
+                    <div id="collapseALConnorSchury" class="accordion-collapse collapse" aria-labelledby="headingALConnorSchury" data-bs-parent="#accordionALConnorSchury">
+                      <div class="accordion-body"><p>Connor Schury was a Professorial Assistant in the lab from 2016 to 2019 while studying Human Biology.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALAshleyGarvin">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALAshleyGarvin">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALAshleyGarvin" aria-expanded="false" aria-controls="collapseALAshleyGarvin">Ashley Garvin</button>
+                    </h5>
+                    <div id="collapseALAshleyGarvin" class="accordion-collapse collapse" aria-labelledby="headingALAshleyGarvin" data-bs-parent="#accordionALAshleyGarvin">
+                      <div class="accordion-body"><p>Ashley Garvin worked in the lab from 2016 to 2018 while studying Genomics and Molecular Genetics.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALKailinnHairston">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALKailinnHairston">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALKailinnHairston" aria-expanded="false" aria-controls="collapseALKailinnHairston">Kailinn Hairston</button>
+                    </h5>
+                    <div id="collapseALKailinnHairston" class="accordion-collapse collapse" aria-labelledby="headingALKailinnHairston" data-bs-parent="#accordionALKailinnHairston">
+                      <div class="accordion-body"><p>Kailinn Hairston worked in the lab in 2017 through the Summer Research Opportunities Program (SROP).</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALKeerthanaByreddy">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALKeerthanaByreddy">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALKeerthanaByreddy" aria-expanded="false" aria-controls="collapseALKeerthanaByreddy">Keerthana Byreddy</button>
+                    </h5>
+                    <div id="collapseALKeerthanaByreddy" class="accordion-collapse collapse" aria-labelledby="headingALKeerthanaByreddy" data-bs-parent="#accordionALKeerthanaByreddy">
+                      <div class="accordion-body"><p>Keerthana Byreddy was a Professorial Assistant in the lab from 2015 to 2017 while studying Biotechnology.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALCurtisBunger">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALCurtisBunger">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALCurtisBunger" aria-expanded="false" aria-controls="collapseALCurtisBunger">Curtis Bunger</button>
+                    </h5>
+                    <div id="collapseALCurtisBunger" class="accordion-collapse collapse" aria-labelledby="headingALCurtisBunger" data-bs-parent="#accordionALCurtisBunger">
+                      <div class="accordion-body"><p>Curtis Bunger was a Professorial Assistant in the lab from 2014 to 2018 while studying Human Biology.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALHannahRice">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALHannahRice">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALHannahRice" aria-expanded="false" aria-controls="collapseALHannahRice">Hannah Rice</button>
+                    </h5>
+                    <div id="collapseALHannahRice" class="accordion-collapse collapse" aria-labelledby="headingALHannahRice" data-bs-parent="#accordionALHannahRice">
+                      <div class="accordion-body"><p>Hannah Rice was a Professorial Assistant in the lab from 2014 to 2016 while studying Fisheries and Wildlife.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALElizabethDeYoung">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALElizabethDeYoung">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALElizabethDeYoung" aria-expanded="false" aria-controls="collapseALElizabethDeYoung">Elizabeth DeYoung</button>
+                    </h5>
+                    <div id="collapseALElizabethDeYoung" class="accordion-collapse collapse" aria-labelledby="headingALElizabethDeYoung" data-bs-parent="#accordionALElizabethDeYoung">
+                      <div class="accordion-body"><p>Elizabeth DeYoung worked in the lab from 2015 to 2016 while studying Human Biology and premedicine.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALBrianGutermuth">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALBrianGutermuth">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALBrianGutermuth" aria-expanded="false" aria-controls="collapseALBrianGutermuth">Brian Gutermuth</button>
+                    </h5>
+                    <div id="collapseALBrianGutermuth" class="accordion-collapse collapse" aria-labelledby="headingALBrianGutermuth" data-bs-parent="#accordionALBrianGutermuth">
+                      <div class="accordion-body"><p>Brian Gutermuth worked in the lab from 2014 to 2016 while studying Biochemistry and Molecular Biology.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALJessicaMizzi">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALJessicaMizzi">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALJessicaMizzi" aria-expanded="false" aria-controls="collapseALJessicaMizzi">Jessica Mizzi</button>
+                    </h5>
+                    <div id="collapseALJessicaMizzi" class="accordion-collapse collapse" aria-labelledby="headingALJessicaMizzi" data-bs-parent="#accordionALJessicaMizzi">
+                      <div class="accordion-body"><p>Jessica Mizzi worked in the lab from 2014 to 2015 while studying Biochemistry and Molecular Biology.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALEranVeziroglu">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALEranVeziroglu">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALEranVeziroglu" aria-expanded="false" aria-controls="collapseALEranVeziroglu">Eran Veziroglu</button>
+                    </h5>
+                    <div id="collapseALEranVeziroglu" class="accordion-collapse collapse" aria-labelledby="headingALEranVeziroglu" data-bs-parent="#accordionALEranVeziroglu">
+                      <div class="accordion-body"><p>Eran Veziroglu completed his Biomedical Engineering master's work in the lab from 2018 to 2020 and is currently a medical student at the Geisel School of Medicine at Dartmouth.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALLavidaRogers">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALLavidaRogers">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALLavidaRogers" aria-expanded="false" aria-controls="collapseALLavidaRogers">Lavida Rogers</button>
+                    </h5>
+                    <div id="collapseALLavidaRogers" class="accordion-collapse collapse" aria-labelledby="headingALLavidaRogers" data-bs-parent="#accordionALLavidaRogers">
+                      <div class="accordion-body"><p>Lavida Rogers (ne&#233; Brooks) completed her Ph.D. work in the lab from 2014 to 2019 in the Microbiology and Molecular Genetics program and is currently Assistant Professor of Biology at the University of the Virgin Islands.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALRaeufRoushangar">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALRaeufRoushangar">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALRaeufRoushangar" aria-expanded="false" aria-controls="collapseALRaeufRoushangar">Raeuf Roushangar</button>
+                    </h5>
+                    <div id="collapseALRaeufRoushangar" class="accordion-collapse collapse" aria-labelledby="headingALRaeufRoushangar" data-bs-parent="#accordionALRaeufRoushangar">
+                      <div class="accordion-body"><p>Raeuf Roushangar completed his dual Ph.D. work in the lab from 2014 to 2018 and is currently a postdoctoral research scientist at Los Alamos National Laboratory.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALMinzhangZheng">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALMinzhangZheng">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALMinzhangZheng" aria-expanded="false" aria-controls="collapseALMinzhangZheng">Minzhang Zheng</button>
+                    </h5>
+                    <div id="collapseALMinzhangZheng" class="accordion-collapse collapse" aria-labelledby="headingALMinzhangZheng" data-bs-parent="#accordionALMinzhangZheng">
+                      <div class="accordion-body"><p>Minzhang Zheng was a postdoctoral scholar in the lab from 2019 to 2021 and is currently Senior Bioinformatics Research Scientist at St. Jude Children's Research Hospital.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALSergiiDomanskyi">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALSergiiDomanskyi">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALSergiiDomanskyi" aria-expanded="false" aria-controls="collapseALSergiiDomanskyi">Sergii Domanskyi</button>
+                    </h5>
+                    <div id="collapseALSergiiDomanskyi" class="accordion-collapse collapse" aria-labelledby="headingALSergiiDomanskyi" data-bs-parent="#accordionALSergiiDomanskyi">
+                      <div class="accordion-body"><p>Sergii Domanskyi was a postdoctoral scholar in the lab from 2019 to 2021 and is currently Assistant Computational Scientist at The Jackson Laboratory.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALVikasSingh">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALVikasSingh">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALVikasSingh" aria-expanded="false" aria-controls="collapseALVikasSingh">Vikas V. Singh</button>
+                    </h5>
+                    <div id="collapseALVikasSingh" class="accordion-collapse collapse" aria-labelledby="headingALVikasSingh" data-bs-parent="#accordionALVikasSingh">
+                      <div class="accordion-body"><p>Vikas V. Singh was a postdoctoral scholar in the lab from 2014 to 2017 and is currently Research Scientist II at Eurofins Viracor BioPharma Services.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALTahirYusufaly">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALTahirYusufaly">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALTahirYusufaly" aria-expanded="false" aria-controls="collapseALTahirYusufaly">Tahir Yusufaly</button>
+                    </h5>
+                    <div id="collapseALTahirYusufaly" class="accordion-collapse collapse" aria-labelledby="headingALTahirYusufaly" data-bs-parent="#accordionALTahirYusufaly">
+                      <div class="accordion-body"><p>Tahir Yusufaly was a postdoctoral scholar in the lab from 2014 to 2015 and is currently Assistant Professor of Radiological Physics at Johns Hopkins Medicine.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="accordion" id="accordionALCathyWiesner">
+                  <div class="accordion-item">
+                    <h5 class="accordion-header" id="headingALCathyWiesner">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseALCathyWiesner" aria-expanded="false" aria-controls="collapseALCathyWiesner">Cathy Wiesner</button>
+                    </h5>
+                    <div id="collapseALCathyWiesner" class="accordion-collapse collapse" aria-labelledby="headingALCathyWiesner" data-bs-parent="#accordionALCathyWiesner">
+                      <div class="accordion-body"><p>Cathy Wiesner worked as Lab Manager in the lab from 2014 to 2015.</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-6" id="resources">
+      <div class="col-md-6" id="resources">
         <h3>Resources</h3>
         <hr>
-        <ul id="resourcesTab" class="nav nav-tabs" role="tablist">
+        <ul id="resourcesTab" class="nav nav-tabs section-tabs" role="tablist">
           <li class="nav-item" role="presentation">
 			  <button class="nav-link active"  data-bs-toggle="tab" data-bs-target="#mathiomica" id="mathiomicaTab" type="button" role="tab" aria-controls="mathiomica" aria-selected="true"> Highlights </button> </li>
           <li class="nav-item" role="presentation">
@@ -738,14 +739,13 @@
         </ul>
         <div id="dataTabContent" class="tab-content">
           <div class="tab-pane fade show active" id="mathiomica" role="tabpanel" aria-labelledby="mathiomicaTab"> <br>
-            <p class="text-center"><img src="img/MathiomicaLogo.png" alt=""></p>
-            <p><a href="https://mathiomica.org" target="_blank"><strong>MathIOmica/PyIOmica/*IOmica</strong></a>: unique platforms for multi-omics analysis.</p>
-			  <p class="text-center"> <img src="img/MathematicaForBioinformatics.jpeg" alt="" height="300"></p>
-			  <p>  <a href="https://link.springer.com/book/10.1007%2F978-3-319-72377-8" target="_blank"><strong>Mathematica for bioinformatics</strong></a>: A Wolfram Language approach to Omics.
+            <p class="text-center"><img src="img/MathiomicaLogo.png" alt="MathIOmica and PyIOmica logo"></p>
+            <p><a href="https://mathiomica.org" target="_blank" rel="noopener noreferrer"><strong>MathIOmica/PyIOmica/*IOmica</strong></a>: computational frameworks developed in the lab for integrative and longitudinal omics analysis, including dynamic trend identification, visualization, and systems-level interpretation of multi-omics data.</p>
+			  <p class="text-center"> <img src="img/MathematicaForBioinformatics.jpeg" alt="Cover of Mathematica for Bioinformatics" height="300"></p>
+			  <p><a href="https://link.springer.com/book/10.1007%2F978-3-319-72377-8" target="_blank" rel="noopener noreferrer"><strong>Mathematica for bioinformatics</strong></a>: A Wolfram Language approach to Omics.</p>
 		    <ul> 
-			  <li> 
-			  Text available for free on SpringerLink with institutional access.</li>
-			  <li>All code from the book is freely available on GitHub <a href="https://github.com/gmiaslab/MathematicaBioinformatics" target="_blank">(Access Latest Release)</a> </li></ul></p>
+			  <li>Text available for free on SpringerLink with institutional access.</li>
+			  <li>All code from the book is freely available on GitHub <a href="https://github.com/gmiaslab/MathematicaBioinformatics" target="_blank" rel="noopener noreferrer">(Access Latest Release)</a></li></ul>
           </div>
  <div class="tab-pane fade" role="tabpanel" aria-labelledby="dataTab" id="data">
 <div class="accordion" id="accordionData">	
@@ -766,7 +766,7 @@
 		  <a href="https://doi.org/10.1038/s41598-020-80605-6"> DOI: doi.org/10.1038/s41598-020-80605-6</a>
         <p><em>Abstract: </em> "Saliva omics has immense potential for non-invasive diagnostics, including monitoring very young or elderly populations, or individuals in remote locations. In this study, multiple saliva omics from an individual were monitored over three periods (100 timepoints) involving: (1) hourly sampling over 24 h without intervention, (2) hourly sampling over 24 h including immune system activation using the standard 23-valent pneumococcal polysaccharide vaccine, (3) daily sampling for 33 days profiling the post-vaccination response. At each timepoint total saliva transcriptome and proteome, and small RNA from salivary extracellular vesicles were profiled, including mRNA, miRNA, piRNA and bacterial RNA. The two 24-h periods were used in a paired analysis to remove daily variation and reveal vaccination responses. Over 18,000 omics longitudinal series had statistically significant temporal trends compared to a healthy baseline. Various immune response and regulation pathways were activated following vaccination, including interferon and cytokine signaling, and MHC antigen presentation. Immune response timeframes were concordant with innate and adaptive immunity development, and coincided with vaccination and reported fever. Overall, mRNA results appeared more specific and sensitive (timewise) to vaccination compared to other omics. The results suggest saliva omics can be consistently assessed for non-invasive personalized monitoring and immune response diagnostics."</p>
 
-		  <p>Data and Code are available on Zenodo <a href="https://doi.org/10.5281/zenodo.3987587" target="_blank"> DOI: 10.5281/zenodo.3987587</a></p>
+		  <p>Data and Code are available on Zenodo <a href="https://doi.org/10.5281/zenodo.3987587" target="_blank" rel="noopener noreferrer"> DOI: 10.5281/zenodo.3987587</a></p>
       </div>
     </div>
   </div>
@@ -786,7 +786,7 @@
 		  <a href="https://doi.org/10.1038/s41598-022-16326-9"> DOI: 10.1038/s41598-022-16326-9</a>
         <p><em>Abstract: </em> "Longitudinal deep multiomics profiling, which combines biomolecular, physiological, environmental and clinical measures data, shows great promise for precision health. However, integrating and understanding the complexity of such data remains a big challenge. Here we utilize an individual-focused bottom-up approach aimed at first assessing single individuals’ multiomics time series, and using the individual-level responses to assess multi-individual grouping based directly on similarity of their longitudinal deep multiomics profiles. We used this individual-focused approach to analyze profiles from a study profiling longitudinal responses in type 2 diabetes mellitus. After generating periodograms for individual subject omics signals, we constructed within-person omics networks and analyzed personal-level immune changes. The results identified both individual-level responses to immune perturbation, and the clusters of individuals that have similar behaviors in immune response and which were associated to measures of their diabetic status."</p>
 
-		  <p>Data and Code are available on Zenodo <a href="https://doi.org/10.5281/zenodo.6751960" target="_blank"> DOI: 10.5281/zenodo.6751960</a></p>
+		  <p>Data and Code are available on Zenodo <a href="https://doi.org/10.5281/zenodo.6751960" target="_blank" rel="noopener noreferrer"> DOI: 10.5281/zenodo.6751960</a></p>
       </div>
     </div>
   </div>
@@ -799,17 +799,17 @@
     </h2>
     <div id="iPOPdata" class="accordion-collapse collapse" aria-labelledby="headingiPOP" data-bs-parent="#accordionData">
       <div class="accordion-body">
-        <p class="text-center"><img src="img/testnetwork_med.png" alt=""></p>
+	        <p class="text-center"><img src="img/testnetwork_med.png" alt="Illustration for integrative personal omics profile data"></p>
         <p>"Personalized medicine is expected to benefit from combining genomic information with regular moni- toring of physiological states by multiple high- throughput methods. Here, we present an integrative personal omics profile (iPOP), an analysis that combines genomic, transcriptomic, proteomic, metabolomic, and autoantibody profiles from a single individual over a 14 month period. Our iPOP analysis revealed various medical risks, including type II diabetes. It also uncovered extensive, dynamic changes in diverse molecular components and biological pathways across healthy and diseased conditions. Extremely high-coverage genomic and transcriptomic data, which provide the basis of our iPOP, discovered extensive heteroallelic changes during healthy and diseased states and an unexpected RNA editing mechanism. This study demonstrates that longitudinal iPOP can be used to interpret healthy and disease states by connecting genomic information with additional dynamic omics activity."</p>
         <p>From Personal Omics Profiling Reveals Dynamic Molecular and Medical Phenotypes</p>
         <hr>
-        <a href="http://www.cell.com/abstract/S0092-8674(12)00166-3" target="" name="">Cell, Volume 148, Issue 6, 1293-1307, 16 March 2012</a>
+	        <a href="https://www.cell.com/cell/fulltext/S0092-8674(12)00166-3" target="_blank" rel="noopener noreferrer">Cell, Volume 148, Issue 6, 1293-1307, 16 March 2012</a>
         <p> The raw data for the pilot iPOP study has been made publically available as follows:</p>
         <h4>iPOP DATA SITE</h4>
-        <p><a href="http://snyderome.stanford.edu" target="_blank" >snyderome</a> contains local repository of iPOP data</p>
+	        <p><a href="https://snyderome.stanford.edu" target="_blank" rel="noopener noreferrer">snyderome</a> contains local repository of iPOP data</p>
         <h4>MASS SPECTROMETRY DATA</h4>
         <p>PEPTIDE ATLAS<br>
-          <a href="http://www.peptideatlas.org/PASS/PASS00062" > http://www.peptideatlas.org/PASS/PASS00062 </a>
+	          <a href="https://www.peptideatlas.org/PASS/PASS00062"> https://www.peptideatlas.org/PASS/PASS00062 </a>
         </p>
       </div>
     </div>
@@ -817,31 +817,31 @@
 </div>
 
           </div>
-          <div  class="tab-pane fade" role="tabpanel" aria-labelledby="toolsTab" id="tools">
+	          <div  class="tab-pane fade" role="tabpanel" aria-labelledby="toolsTab" id="tools">
 			  <h4>Open Source Tools for Computation</h4>
-               	<p> Tools available on the <a href="https://github.com/gmiaslab"><strong>gmiaslab GitHub repository</strong></a>
-			  <ol style="list-style-type:circle; " >
-                        <li><strong>MathIOmica and PyIOmica</strong></li>
-			  			<ol style="list-style-type:disc">
-							<li><a href="https://mathiomica.org"> MathIOmica.org</a> Information Homepage for MathIOmica and PyIOmica</li>
-							<li><a href="https://github.com/gmiaslab/mathiomica"> MathIOmica GitHub Page</a> Multi-omics analysis tool written in the Wolfram Language</li>
-							<li><a href="https://github.com/gmiaslab/pyiomica"> PyIOmica GitHub Page</a> Multi-omics analysis tool written in Python</li>
-			    </ol>
-			  <li><strong>MathIOmica-MSViewer</strong></li>
-			  			<ol style="list-style-type:disc">
-							<li><a href="https://github.com/gmiaslab/MathIOmica-MSViewer"> MathIOmica-MSViewer GitHub Page</a> A mass spectrometry spectra viewer written in the Wolfram Language.
-						  </li>
-				</ol>
-			  <li><strong>ClassificaIO</strong></li>
-			  	<ol style="list-style-type:disc">
-							<li><a href="https://github.com/gmiaslab/ClassificaIO">ClassificaIO GitHub Page</a> A GUI for Machine Learning Algorithms (Python).
-				  </li>
-				</ol>
-			  </ol>
-			  	</p>
+               	<p>Tools available on the <a href="https://github.com/gmiaslab"><strong>gmiaslab GitHub repository</strong></a>.</p>
+			  <ul>
+                        <li><strong>MathIOmica and PyIOmica</strong>
+			  			<ul>
+							<li><a href="https://mathiomica.org">MathIOmica.org</a> Information Homepage for MathIOmica and PyIOmica</li>
+							<li><a href="https://github.com/gmiaslab/mathiomica">MathIOmica GitHub Page</a> Multi-omics analysis tool written in the Wolfram Language</li>
+							<li><a href="https://github.com/gmiaslab/pyiomica">PyIOmica GitHub Page</a> Multi-omics analysis tool written in Python</li>
+			    </ul>
+                          </li>
+			  <li><strong>MathIOmica-MSViewer</strong>
+			  			<ul>
+							<li><a href="https://github.com/gmiaslab/MathIOmica-MSViewer">MathIOmica-MSViewer GitHub Page</a> A mass spectrometry spectra viewer written in the Wolfram Language.</li>
+				</ul>
+                          </li>
+			  <li><strong>ClassificaIO</strong>
+			  	<ul>
+							<li><a href="https://github.com/gmiaslab/ClassificaIO">ClassificaIO GitHub Page</a> A GUI for Machine Learning Algorithms (Python).</li>
+				</ul>
+                          </li>
+			  </ul>
 	   	  </div>
           <div class="tab-pane fade" role="tabpanel" aria-labelledby="educationalTab" id="educational">
-            <div class="panel panel-default">
+            <div>
            <div class="accordion" id="educationalPanels">
   <div class="accordion-item">
     <h2 class="accordion-header" id="classesHeader">
@@ -854,22 +854,22 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="card">
-              <img src="img/Classes/MMG835_16/genetics.png" alt="Thumbnail Image 1" class="card-img-top img-fluid">
+	              <img src="img/Classes/MMG835_16/genetics.png" alt="Thumbnail for MMG 835 Eukaryotic Genetics" class="card-img-top img-fluid">
               <div class="card-body">
                 <h4 class="card-title"><button class="btn btn-link" data-bs-toggle="collapse" href="#collapseClasses1" role="button" aria-expanded="false" aria-controls="collapseClasses1">MMG 835 Eukaryotic Genetics</button></h4>
                 <div class="collapse" id="collapseClasses1">
                   <div class="card card-body">
                     <h4>Lecture Slides</h4>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/1_GenomeSequencingI.pdf" target="_blank">Lecture 1: Genome Sequencing I</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/2_GenomeSequencingII.pdf" target="_blank">Lecture 2: Genome Sequencing II</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/3_GenomeSequencingIII.pdf" target="_blank">Lecture 3: Genome Sequencing III</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/4_Arrays_Expression.pdf" target="_blank">Lecture 4: Arrays and Expression</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/5_RNA_Seq.pdf" target="_blank">Lecture 5: RNA Sequencing</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/6_ProteomicsMetabolomicsOther.pdf" target="_blank">Lecture 6: Proteomics Metabolomics and Others</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/7_Epigenetics.pdf" target="_blank">Lecture 7: Epigenetics</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/8_SystemsBioNets.pdf" target="_blank">Lecture 8: Systems Bio &amp; Networks</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/9_ENCODE.pdf" target="_blank">Lecture 9: ENCODE</a></p>
-                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/10_PrecisionMed.pdf" target="_blank">Lecture 10: Precision Medicine</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/1_GenomeSequencingI.pdf" target="_blank" rel="noopener noreferrer">Lecture 1: Genome Sequencing I</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/2_GenomeSequencingII.pdf" target="_blank" rel="noopener noreferrer">Lecture 2: Genome Sequencing II</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/3_GenomeSequencingIII.pdf" target="_blank" rel="noopener noreferrer">Lecture 3: Genome Sequencing III</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/4_Arrays_Expression.pdf" target="_blank" rel="noopener noreferrer">Lecture 4: Arrays and Expression</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/5_RNA_Seq.pdf" target="_blank" rel="noopener noreferrer">Lecture 5: RNA Sequencing</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/6_ProteomicsMetabolomicsOther.pdf" target="_blank" rel="noopener noreferrer">Lecture 6: Proteomics Metabolomics and Others</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/7_Epigenetics.pdf" target="_blank" rel="noopener noreferrer">Lecture 7: Epigenetics</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/8_SystemsBioNets.pdf" target="_blank" rel="noopener noreferrer">Lecture 8: Systems Bio &amp; Networks</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/9_ENCODE.pdf" target="_blank" rel="noopener noreferrer">Lecture 9: ENCODE</a></p>
+	                    <p><a class="btn btn-primary btn-sm" href="img/Classes/MMG835_16/10_PrecisionMed.pdf" target="_blank" rel="noopener noreferrer">Lecture 10: Precision Medicine</a></p>
                                 </div>
                               </div>
                             </div>
@@ -888,11 +888,11 @@
     </h2>
     <div id="notesPrimersCollapse" class="accordion-collapse collapse" aria-labelledby="notesPrimersHeader" data-bs-parent="#notesPrimersAccordion">
       <div class="accordion-body">
-        <ol reversed style="list-style-type:circle; ">
+	        <ol reversed class="resource-list">
           <li><strong>George I. Mias<sup>c </sup></strong> <em>, Mathematica for Bioinformatics: a Wolfram Language approach to Omics</em>, Springer, ISBN 978-3-319-72377-8
             <a href="https://doi.org/10.1007/978-3-319-72377-8"> doi:10.1007/978-3-319-72377-8</a></li>
           <li> <strong> George I. Mias</strong>, M. Snyder, <em> Personal Genomes, Quantitative Dynamic Omics and Personalized Medicine</em>, Quantitative Biology 1(1) (2013),<br>
-            <a href="http://dx.doi.org/10.1007/s40484-013-0005-3" title="DOI">doi:10.1007/s40484-013-0005-3</a> &nbsp; Offers examples of computational tools as an introduction to integrative dynamic omics.</li>
+	            <a href="https://doi.org/10.1007/s40484-013-0005-3" title="DOI">doi:10.1007/s40484-013-0005-3</a> Offers examples of computational tools as an introduction to integrative dynamic omics.</li>
         </ol>
       </div>
     </div>
@@ -908,11 +908,11 @@
     </h2>
     <div id="statCompSoftwareCollapse" class="accordion-collapse collapse" aria-labelledby="statCompSoftwareHeader" data-bs-parent="#statCompSoftwareAccordion">
       <div class="accordion-body">
-        <ol reversed style="list-style-type:circle; " >
-          <li><a href="http://www.r-project.org" >The R Project for Statistical Computing</a></li>
-          <li><a href="http://www.mathworks.com/products/matlab/" >Mathworks Matlab</a></li>
-          <li><a href="http://www.sagemath.org" > Sage Math</a></li>
-          <li><a href="http://www.wolfram.com/mathematica/" > Mathematica</a></li>
+	        <ol reversed class="resource-list">
+	          <li><a href="https://www.r-project.org">The R Project for Statistical Computing</a></li>
+	          <li><a href="https://www.mathworks.com/products/matlab/">Mathworks Matlab</a></li>
+	          <li><a href="https://www.sagemath.org"> Sage Math</a></li>
+	          <li><a href="https://www.wolfram.com/mathematica/"> Mathematica</a></li>
         </ol>
       </div>
     </div>
@@ -928,10 +928,10 @@
     </h2>
     <div id="codingResourcesCollapse" class="accordion-collapse collapse" aria-labelledby="codingResourcesHeader" data-bs-parent="#codingResourcesAccordion">
       <div class="accordion-body">
-        <ol reversed style="list-style-type:circle; " >
-          <li><a href="https://www.anaconda.com" >Anaconda </a> has a great Python distribution.</li>
-          <li><a href="http://www.python.org" >Python</a></li>
-          <li><a href="http://stackoverflow.com" >Stack Overflow</a> has answers to a lot of programming questions.</li>
+	        <ol reversed class="resource-list">
+	          <li><a href="https://www.anaconda.com" >Anaconda </a> has a great Python distribution.</li>
+	          <li><a href="https://www.python.org" >Python</a></li>
+	          <li><a href="https://stackoverflow.com" >Stack Overflow</a> has answers to a lot of programming questions.</li>
         </ol>
       </div>
     </div>
@@ -947,15 +947,15 @@
     </h2>
     <div id="physicsResourcesCollapse" class="accordion-collapse collapse" aria-labelledby="physicsResourcesHeader" data-bs-parent="#physicsResourcesAccordion">
       <div class="accordion-body">
-        <ol reversed style="list-style-type:circle; " >
-          <li><a href="http://feynmanlectures.caltech.edu" > The Feynman Lectures on Physics</a> has Richard Feynman's fantastic pedagogical lecture notes on Physics.</li>
+	        <ol reversed class="resource-list">
+	          <li><a href="https://feynmanlectures.caltech.edu" > The Feynman Lectures on Physics</a> has Richard Feynman's fantastic pedagogical lecture notes on Physics.</li>
         </ol>
       </div>
     </div>
   </div>
 </div>
 
-              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -964,26 +964,30 @@
   </div>
 </section>
 <hr>
-<div class="container well">
-  <div class="row">
-    <div class=" col-sm-6 col-lg-4 col-md-4"> <span class="text-right"> </span>
+<div class="container-xl site-info-panels">
+  <div class="row g-4">
+    <div class="col-sm-6 col-lg-4 col-md-4"> <span class="text-right"> </span>
       <h3 id="aboutus">About Us</h3>
       <hr>
-      <p >Our research interests lie in systems medicine and dynamics. We are an interdisciplinary team that focuses on developing theory and frameworks for studying dynamics, the application of longitudinal monitoring to evaluate and interpret microscopic molecular signatures (omics) and macroscopic physiological measurements, and integrate these to identify collective temporal trends that reflect the physiological state of a person. Our long-term vision is to develop innovative dynamics methods, bring individualized longitudinal medicine to the clinic for all, and automate the monitoring and evaluation of active personnel (astronauts), as well as improve diagnostics in populations with restricted access to healthcare. </p>
+      <p>Our research interests lie in dynamics, systems biology, and systems medicine. We are an interdisciplinary team that develops theory and computational frameworks for studying dynamic systems, with applications spanning molecular, physiological, and clinical data. We focus on longitudinal monitoring and integrative analysis of omics and physiological measurements to identify temporal patterns that reflect changing biological states.</p>
+      <p>Our long-term vision is to develop innovative dynamics methods, advance individualized longitudinal medicine, and improve monitoring in both clinical and operational settings. This includes applications in aging, immune response, cancer, neurodegenerative disease, and adaptation to changing environments such as space travel, as well as the development of non-invasive saliva diagnostics for personalized monitoring.</p>
     </div>
-    <div class=" col-sm-6 col-lg-4 col-md-4"> <span class="text-right"> </span>
+    <div class="col-sm-6 col-lg-4 col-md-4"> <span class="text-right"> </span>
       <h3 id="labtwitter">Latest News</h3>
       <hr>
-     <a class="twitter-timeline" href="https://twitter.com/gmiaslab?ref_src=twsrc%5Etfw">Tweets by gmiaslab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p><a href="https://www.linkedin.com/in/georgemias/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>: professional updates and announcements.</p>
+      <p><a href="https://orcid.org/0000-0002-9083-1216" target="_blank" rel="noopener noreferrer"><strong>ORCiD</strong></a>: publications and research record updates.</p>
+      <p><strong>Twitter / X feed</strong></p>
+	     <a class="twitter-timeline" href="https://twitter.com/gmiaslab?ref_src=twsrc%5Etfw">Tweets by gmiaslab</a>
     </div>
-    <div class=" col-sm-6 col-lg-4 col-md-4"> <span class="text-right"> </span>
+    <div class="col-sm-6 col-lg-4 col-md-4"> <span class="text-right"> </span>
       <h3  id="contacts">Contact Us</h3>
       <hr>
       <address>
       <strong>G. Mias Lab</strong><br>
-      <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 775 Woodlot Drive, Rm 1319, Institute for Quantitative Health Sciences and Engineering,<br>
+      <span class="contact-label">Address:</span> 775 Woodlot Drive, Rm 1319, Institute for Quantitative Health Sciences and Engineering,<br>
       East Lansing, MI, 48824<br>
-      <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:#">gmiaslab@gmail.com</a>
+      <span class="contact-label">Email:</span> <a href="mailto:gmiaslab@gmail.com">gmiaslab@gmail.com</a>
       </address>
     </div>
   </div>
@@ -991,15 +995,17 @@
 <footer class="text-center">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-        <p>Copyright © George I. Mias 2019-23. All rights reserved.</p>
+      <div class="col-12">
+        <p>Copyright © George I. Mias 2019-2026. All rights reserved.</p>
       </div>
     </div>
   </div>
 </footer>
+ </main>
 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </body>
 </html>
